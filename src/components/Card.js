@@ -13,9 +13,9 @@ export default function Card(props) {
                 {badgeText && <div className="card-badge">{badgeText}</div>}
                 <img src={props.card.coverImg} alt="img" className="card-image"></img>
                 <div className="card-stats">    
-                        <img src={require('../images/Star.png')} className="card-star" alt=""></img>
-                    <span>{props.card.rating}</span>
-                    <span className="grey">({props.card.reviewCount}) • </span>
+                        <img src='../images/Star.png' className="card-star" alt=""></img>
+                    <span>{props.card.stats.rating}</span>
+                    <span className="grey">({props.card.stats.reviewCount}) • </span>
                     <span className="grey">{props.card.location}</span>
                 </div>
                 <p>{props.card.title}</p>

@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <div className="nav">
             <div>
-                <img src={require('../images/logo.jpg')} alt="" className="nav-img"></img>    
+                <img src='../images/logo.jpg' alt="" className="nav-img"></img>    
             </div>
         </div>
     )
